@@ -660,3 +660,19 @@ h1, h2, h3, h4 {
   font-size: 12.5px;
   color: rgba(100, 116, 139, 0.8);
 }
+
+
+
+
+/* ---- Scroll safety net ---- */
+html, body { height: 100%; }
+body { overflow-y: auto; }                 /* allow page scroll */
+#__next, body > div:first-child { min-height: 100%; }
+
+/* If you have a shell wrapper, these help prevent "no-scroll" traps */
+.app-shell { min-height: 100vh; display: flex; }
+.app-content {
+  flex: 1 1 auto;
+  min-height: 0;                           /* important for flex children */
+  overflow-y: auto;                        /* allow inner scroll if a fixed header exists */
+}
