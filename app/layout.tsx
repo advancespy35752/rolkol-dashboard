@@ -25,9 +25,6 @@ export default function RootLayout({
               <div className="text-sm font-medium text-textMain">
                 Rolkol Dashboard
               </div>
-              <div className="text-[12px] text-textDim">
-                v0.1 · Internal Preview
-              </div>
             </header>
 
             {/* Page body */}
