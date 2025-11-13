@@ -39,25 +39,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-// import "./globals.css";
-
-// export const metadata = {
-//   title: "Rolkol Dashboard",
-//   description: "Voice AI Control Panel",
-// };
-
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode;
-// }) {
-//   return (
-//     <html lang="en">
-//       <body className="bg-pageBg text-textMain antialiased">
-//         {children}
-//       </body>
-//     </html>
-//   );
-// }

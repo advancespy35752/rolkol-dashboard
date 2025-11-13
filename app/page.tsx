@@ -19,11 +19,11 @@ const connectedNumbers = [
 ];
 
 const recentCalls = [
-  { id: "C-78431", from: "+91 98301 12233", to: "Support", ts: "Nov 5, 10:22 PM", durationSec: 208, status: "completed" as const },
-  { id: "C-78430", from: "+91 98215 56677", to: "Reservations", ts: "Nov 5, 09:15 PM", durationSec: 92, status: "completed" as const },
-  { id: "C-78429", from: "+91 98804 43322", to: "Sales", ts: "Nov 5, 8:16 PM", durationSec: 110, status: "completed" as const },
-  { id: "C-78428", from: "+91 97009 98877", to: "Billing", ts: "Nov 5, 03:14 PM", durationSec: 95, status: "completed" as const },
-  { id: "C-78427", from: "+91 89545 53498", to: "Sales", ts: "Nov 5, 10:59 AM", durationSec: 0, status: "missed" as const },
+  { id: "C-78431", from: "+91 98301 12233", to: "Support", ts: "Nov 12, 10:22 PM", durationSec: 208, status: "completed" as const },
+  { id: "C-78430", from: "+91 98215 56677", to: "Reservations", ts: "Nov 12, 09:15 PM", durationSec: 92, status: "completed" as const },
+  { id: "C-78429", from: "+91 98804 43322", to: "Sales", ts: "Nov 12, 8:16 PM", durationSec: 110, status: "completed" as const },
+  { id: "C-78428", from: "+91 97009 98877", to: "Billing", ts: "Nov 12, 03:14 PM", durationSec: 95, status: "completed" as const },
+  { id: "C-78427", from: "+91 89545 53498", to: "Sales", ts: "Nov 12, 10:59 AM", durationSec: 0, status: "missed" as const },
 ];
 
 /* ====================== helpers ====================== */

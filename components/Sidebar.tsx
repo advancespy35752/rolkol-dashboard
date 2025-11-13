@@ -31,7 +31,6 @@ const NAV_ITEMS: NavItem[] = [
   { label: "Knowledge Base",href: "/knowledge",      icon: <BookOpen className="w-4 h-4" />,        role: "client", section: "platform" },
   { label: "Integrations",  href: "/integrations",   icon: <Network className="w-4 h-4" />,         role: "both", section: "platform" },
   { label: "Prompts",       href: "/prompts",        icon: <MessageSquare className="w-4 h-4" />,   role: "client", section: "platform" },
-
   { label: "Clients",       href: "/admin/clients",  icon: <Users className="w-4 h-4" />,           role: "super",  section: "admin" },
   { label: "Settings",      href: "/settings",       icon: <Settings className="w-4 h-4" />,        role: "both",   section: "admin" },
 ];
